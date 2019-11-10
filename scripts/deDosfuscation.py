@@ -112,11 +112,10 @@ def de_dosfuscation_work(mix_str):
 
 
 def main():
-    # if 2 != len(sys.argv):
-    #     print('use like : python deDosfuscation.py Dosfuscation.txt')
-    #     exit(0)
-    # filename = sys.argv[1]
-    filename = r'g:\python\pycharm\deDosfuscation\zip_lnk_type\10.txt'
+    if 2 != len(sys.argv):
+        print('use like : python deDosfuscation.py Dosfuscation.txt')
+        exit(0)
+    filename = sys.argv[1]
     print('start process %s file.' % filename)
     new_name = filename + '.clear'
     with open(filename, 'r') as f:
