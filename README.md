@@ -3,6 +3,8 @@ python scripts
 
 ## 1. cmd命令去混淆脚本
 
+[原理文章](https://ddvvmmzz.github.io/Windows-CMD%E5%91%BD%E4%BB%A4%E5%8E%BB%E6%B7%B7%E6%B7%86)
+
 使用方式如下，`xxx.txt`文件中，每行一条混淆命令，执行完成之后，在当前目录下生成`xxx.txt.clear`文件，保存去混淆之后的命令。
 
 `python deDosfuscation.py xxx.txt`
